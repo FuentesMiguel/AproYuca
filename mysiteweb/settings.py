@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'Login',
 ]
 
 MIDDLEWARE = [
@@ -124,6 +125,8 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+LOGIN_URL = 'login'
 
 
 # Default primary key field type
